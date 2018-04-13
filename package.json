@@ -1,12 +1,11 @@
 {
   "name": "prism-media-fork",
-  "version": "0.3.1",
-  "description": "Easy-to-use stream-based media transcoding (Fork from prism-media)",
+  "version": "0.1.0",
+  "description": "Makes transcoding media easier (Fork from prism-media)",
   "main": "src/index.js",
-  "types": "typings/index.d.ts",
   "scripts": {
-    "lint": "eslint src",
-    "test": "npm run lint && jest"
+    "lint": "eslint src && eslint test",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -15,11 +14,7 @@
   "keywords": [
     "audio",
     "media",
-    "ffmpeg",
-    "opus",
-    "pcm",
-    "webm",
-    "ogg"
+    "ffmpeg"
   ],
   "author": "Amish Shah <amishshah.2k@gmail.com>",
   "contributors": [
@@ -35,7 +30,6 @@
   },
   "homepage": "https://github.com/edisonlee55/prism-media#readme",
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "jest": "^22.1.4"
+    "eslint": "^3.12.2"
   }
 }
