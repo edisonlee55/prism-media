@@ -1,6 +1,6 @@
 {
   "name": "prism-media-fork",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Easy-to-use stream-based media transcoding (Fork from prism-media)",
   "main": "src/index.js",
   "types": "typings/index.d.ts",
