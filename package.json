@@ -1,7 +1,7 @@
 {
-  "name": "prism-media",
+  "name": "prism-media-fork",
   "version": "0.2.1",
-  "description": "Easy-to-use stream-based media transcoding",
+  "description": "Easy-to-use stream-based media transcoding (Fork from prism-media)",
   "main": "src/index.js",
   "types": "typings/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hydrabolt/prism-media.git"
+    "url": "git+https://github.com/edisonlee55/prism-media.git"
   },
   "keywords": [
     "audio",
@@ -22,11 +22,18 @@
     "ogg"
   ],
   "author": "Amish Shah <amishshah.2k@gmail.com>",
+  "contributors": [
+    {
+      "name": "Edison Lee",
+      "email": "edisonlee@edisonlee55.com",
+      "url": "https://www.edisonlee55.com"
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hydrabolt/prism-media/issues"
+    "url": "https://github.com/edisonlee55/prism-media/issues"
   },
-  "homepage": "https://github.com/hydrabolt/prism-media#readme",
+  "homepage": "https://github.com/edisonlee55/prism-media#readme",
   "devDependencies": {
     "eslint": "^4.16.0",
     "jest": "^22.1.4"
